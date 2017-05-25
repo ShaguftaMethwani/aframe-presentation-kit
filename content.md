@@ -3,9 +3,7 @@
 <div class="talk-title">
   <h1>A-Frame</h1>
   <p>A web framework for building VR experiences</p>
-  <p class="talk-info">
-    @shaguftamethwan | Mozilla VR | **aframe.io**
-  </p>
+  
 </div>
 
 <!-- NOTES -->
