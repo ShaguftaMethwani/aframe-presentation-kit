@@ -13,9 +13,9 @@
 - Prototype WebVR experiences faster
 
 ------
-
+<div class="bigg">
 # Virtual Reality
-
+</div>
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 <div class="darkk"><img data-src="media/img/Picture3.png" ></div>
 <!-- NOTES -->
