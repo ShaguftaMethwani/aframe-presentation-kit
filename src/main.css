@@ -24,6 +24,9 @@ html:-moz-full-screen-ancestor {
 .darkk{
   z-index:9999;
   position: absolute;
+  top:0;
+  left:0;
+  width:100%;
 }
 .bigg{
   z-index:10000;
