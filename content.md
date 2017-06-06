@@ -15,9 +15,9 @@
 ------
 
 # Virtual Reality
-<div class="darkk">
+
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
-</div>
+<div class="darkk"><img src="media/img/Picture3.png" ></div>
 <!-- NOTES -->
 - Ask how many have tried VR.
 - Virtual reality is a technology platform that transports you to realistic, interactive, immersive 3D environments
