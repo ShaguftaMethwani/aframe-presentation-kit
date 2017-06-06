@@ -21,7 +21,9 @@ html:-webkit-full-screen-ancestor,
 html:-moz-full-screen-ancestor {
   background: inherit;
 }
-
+.darkk{
+  z-index:9999;
+}
 .reveal {
   font-family: "Fira Sans", Helvetica, sans-serif;
   font-size: 38px;
