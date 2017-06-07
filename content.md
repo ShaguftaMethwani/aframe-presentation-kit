@@ -4,7 +4,7 @@
   <h1>A-Frame</h1>
   <p>A web framework for building VR experiences</p>
   <p class="talk-info">
-    @shaguftamethwan | Mozilla Tech Speaker 
+    Rishita Bansal | Rutuja Surve | Shagufta Methwani
   </p>
 </div>
 
