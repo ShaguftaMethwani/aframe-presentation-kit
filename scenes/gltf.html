@@ -1,0 +1,9 @@
+<a-scene embedded inspector="src/vendor/js/aframe-inspector.min.js">
+<a-assets>
+    <a-asset-item id="tree-obj" src="scenes/models/queen-of-cancelot.obj"></a-asset-item>
+    <a-asset-item id="tree-mtl" src="scenes/models/queen-of-cancelot.mtl"></a-asset-item>
+	<img id ="imgg" src="media/img/360.jpg">
+  </a-assets>
+  <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale= "0.3 0.3 0.3" position="0 0 -3" rotation="0 0 0" ></a-entity>
+  <a-sky src=#imgg ><a-sky>
+</a-scene>
