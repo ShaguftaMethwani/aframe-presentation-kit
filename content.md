@@ -4,7 +4,7 @@
   <h1>A-Frame</h1>
   <p>A web framework for building VR experiences</p>
   <p class="talk-info">
-    Rishita Bansal | Rutuja Surve | Shagufta Methwani
+Shagufta Gurmukhdas | Mozilla TechSpeaker
   </p>
 </div>
 
@@ -287,6 +287,11 @@ A web framework for building virtual reality experiences
 - Quickly look at a live example...
 
 ---
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+
+<div class="stretch" data-aframe-scene="scenes/hello-world.html"></div>
+
+---
 
 ## Hello Metaverse
 
@@ -511,6 +516,54 @@ Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
 
 ------
 
+JavaScript, Events, DOM APIs
+
+<img class="stretch" data-src="media/img/js.jpg">
+
+<!-- NOTES -->
+> Use JavaScript and DOM APIs to programmatically modify the scene and its
+> entities. A-Frame is not just HTML; A-Frame provides access to JavaScript,
+> DOM APIs, and three.js underneath for full control. 
+
+To see JavaScript logs, we can open the browser's development console by
+right-clicking the page, clicking *Inspect* or *Inspect Element*, and then
+clicking the *Console* tab. When viewing solutions, we can see the results
+through the browser console.
+
+---
+
+JavaScript, Events, DOM APIs
+
+```
+- var sceneEl = document.querySelector('a-scene');
+- sceneEl.querySelectorAll('a-entity');
+- sceneEl.querySelector('#box');
+- sceneEl.querySelector('a-box').setAttribute('rotation', {x: 0, y: 0, z: 0});
+- var boxEl = document.createElement('a-box'); boxEl.setAttribute('material', {color: '#EF2D5E'}); sceneEl.appendChild(boxEl);
+- boxEl.addEventListener('foo', function () {
+            boxEl.setAttribute('color', 'blue');  
+          });
+  boxEl.emit('foo');
+```
+
+<!-- NOTES -->
+- Use `document.querySelector()` and `document.querySelectorAll()` to get a reference to the scene and its entities.  
+- Use `Entity.setAttribute()` to modify entities after retrieving them 
+- Use `document.createElement()` to create entities, `.setAttribute()` to configure them, and `.appendChild()` to add them to the scene. Ex: In a JavaScript `for` loop, u can create and add 50 `<a-box>` elements with
+random positions and scales
+- Use `.addEventListener()` to register a handler function that will be called when an event is emitted. The handler function executes when that event is emitted. we can use event listeners to change the scene based on user input or other events.
+------
+## Add 3D Models
+
+<!-- .slide: data-background-color="#333" -->
+
+<div class="stretch" data-aframe-scene="scenes/gltf.html"></div>
+
+<!-- NOTES -->
+
+A-Frame provides components for loading glTF, OBJ, COLLADA
+Models come in the format of plain text files containing vertices, faces, UVs, textures, materials, and animations. They also come with images for textures, usually alongside the model file. three.js loaders parse these files to render them within a three.js scene as meshes. A-Frame model components wrap these three.js loaders.
+------
 <!-- .slide: data-background="media/img/header.png" -->
 
 # Community
