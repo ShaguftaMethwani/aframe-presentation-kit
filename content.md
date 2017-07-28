@@ -363,6 +363,16 @@ A web framework for building virtual reality experiences
 
 ---
 
+<!-- .slide: data-background="media/img/minecraft-blocks.png" -->
+<img class="stretch" data-src="media/img/1.png">
+
+---
+
+<!-- .slide: data-background="media/img/minecraft-blocks.png" -->
+<img class="stretch" data-src="media/img/2.jpg">
+
+---
+
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="slide-in none" -->
 
 ## Composing an Entity
