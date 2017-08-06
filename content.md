@@ -1,10 +1,9 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
+  <h1>Web Based Virtual Reality</h1>
   <p class="talk-info">
-Shagufta Gurmukhdas | Mozilla TechSpeaker
+@shaguftamethwan | Shagufta | Mozilla TechSpeaker
   </p>
 </div>
 
