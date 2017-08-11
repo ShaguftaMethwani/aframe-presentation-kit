@@ -572,6 +572,20 @@ random positions and scales
 
 A-Frame provides components for loading glTF, OBJ, COLLADA
 Models come in the format of plain text files containing vertices, faces, UVs, textures, materials, and animations. They also come with images for textures, usually alongside the model file. three.js loaders parse these files to render them within a three.js scene as meshes. A-Frame model components wrap these three.js loaders.
+
+---
+
+<!-- .slide: data-background-color="#333" -->
+
+<div class="stretch" data-aframe-scene="scenes/gltf.html"></div>
+
+```html
+
+  <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale= "0.3 0.3 0.3" position="0 0 -3" rotation="0 0 0" ></a-entity>
+  <a-sky src=#imgg ><a-sky>
+
+```
+
 ------
 <!-- .slide: data-background="media/img/header.png" -->
 
